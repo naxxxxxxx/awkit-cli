@@ -1,0 +1,33 @@
+{
+  "name": "awkit-cli",
+  "version": "1.0.0",
+  "description": "a web kit cli for web developers",
+  "main": "index.js",
+  "bin": {
+    "awkit": "./bin/www"
+  },
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch",
+    "postinstall": "awkit config set"
+  },
+  "keywords": [
+    "web",
+    "kit",
+    "js",
+    "frontend"
+  ],
+  "author": "aver",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "ini": "^2.0.0",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.2.0"
+  }
+}
