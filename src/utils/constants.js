@@ -13,6 +13,7 @@ export const RC = `${HOME}/.awkitrc`;
 // https://api.github.com/users/YvetteLau/repos
 // https://api.github.com/${type}/${registry}/repos
 // 模板下载地址可配置
+
 export const DEFAULTS = {
   registry: "naxxxxxxx",
   type: "users",

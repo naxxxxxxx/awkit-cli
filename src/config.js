@@ -1,4 +1,3 @@
-import { action } from "commander";
 import { get, set, getAll, remove } from "./utils/rc";
 
 let config = async (action, key, value) => {
@@ -24,4 +23,5 @@ let config = async (action, key, value) => {
       break;
   }
 };
+
 module.exports = config;

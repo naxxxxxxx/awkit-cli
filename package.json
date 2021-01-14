@@ -17,11 +17,13 @@
     "js",
     "frontend"
   ],
+  "git repository": "https://github.com/naxxxxxxx/awkit-cli",
   "author": "aver",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-env": "^2.4.1",
+    "babel-preset": "^1.1.7",
     "chalk": "^4.1.0",
     "commander": "^6.2.1",
     "download-git-repo": "^3.0.2",

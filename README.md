@@ -1,12 +1,12 @@
-## 安装依赖
+## install dependences
 
 yarn install
 
-## 启动
+## start
 
 yarn watch
 
-## 执行 npm link 后即可使用以下命令
+## use commands below after command `npm link`
 
 ```
 awkit config get
@@ -17,6 +17,6 @@ awkit config set registry ${registry}
 
 ```
 
-## 发布
+## publish
 
-开发完成后，即可发布至 npm.
+your can publish your own cli to npm
